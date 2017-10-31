@@ -5,9 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <script src="./../../bundle.js"></script>
+    <script src="../go.js"></script>
+    <script src="../mydiagram.js"></script>
+    <style type="text/css">
+        #infobox {
+          width: 256px;
+          background: #757575;
+          color: #FFF;
+          padding: 20px;
+        }
+      </style>
 </head>
 <body>
-    ...
+        <div id="sample">
+                <div style="width:100%">
+                    <div id="myDiagramDiv" style="border: solid 1px black; width:70%; height:550px; display: inline-block; vertical-align: top"></div>
+                    <div id="infobox" style="display: inline-block; vertical-align: top;">
+                      <img id="Image" width="216" alt="" src=""/>
+                      <h3 id="Title"></h3>
+                      <p id="Description">Select a node to see more information.</p>
+                    </div>
+                </div>
+              </div>
+
+              
 </body>
 </html>
